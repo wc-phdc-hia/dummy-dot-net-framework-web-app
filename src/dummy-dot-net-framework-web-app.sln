@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dummy-dot-net-framework-web-app", "dummy-dot-net-framework-web-app.csproj", "{AD67B698-86DE-4203-8265-4B094BECBC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity", "Identity\Identity.csproj", "{0A11EADF-21ED-4100-89DE-3F5C92AD2514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dummy-dot-net-framework-web-app", "Startup\dummy-dot-net-framework-web-app.csproj", "{AD67B698-86DE-4203-8265-4B094BECBC36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A11EADF-21ED-4100-89DE-3F5C92AD2514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A11EADF-21ED-4100-89DE-3F5C92AD2514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A11EADF-21ED-4100-89DE-3F5C92AD2514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A11EADF-21ED-4100-89DE-3F5C92AD2514}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD67B698-86DE-4203-8265-4B094BECBC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD67B698-86DE-4203-8265-4B094BECBC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD67B698-86DE-4203-8265-4B094BECBC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
